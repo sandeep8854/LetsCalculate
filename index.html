@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <legend>Welcome to semi cal()</legend>
+        <table>
+          <tr>
+            <td colspan="2">
+              <label id=""
+                >Add Number separate with comma (Ex:- 20,30,40,...)</label
+              >
+              <input type="text" id="number" placeholder="Enter Your Number" />
+            </td>
+          </tr>
+          <tr>
+            <td>Sum:-</td>
+            <td><input type="text" id="sum" disabled /></td>
+          </tr>
+          <tr>
+            <td>Average:-</td>
+            <td><input type="text" id="average" disabled /></td>
+          </tr>
+          <tr>
+            <td>Products:-</td>
+            <td><input type="text" id="product" disabled /></td>
+          </tr>
+          <tr>
+            <td>
+              <button id="btn">Save</button>
+              <button class="resetb2" id="reset" onClick="resetFu()">
+                Reset.
+              </button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
